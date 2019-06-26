@@ -1,0 +1,25 @@
+松下驱动器和电机参考资料
+2018年11月29日
+14:48
+1、参考网址：
+https://device.panasonic.cn/ac/c/dl/manual/index.jsp?series_cd=3556
+ 
+2、电缸使用的驱动器及电机型号
+电机型号			MHMF022L1V2M（松下）	丝杆导程（mm）	4
+驱动器型号		MADLN15BE（松下）	额定速度（mm/s）	200
+电机功率（W）		200			额定推力（N）	854
+电机额定扭矩（NM）		0.64			有效行程（mm）	100
+电机额定转速（RPM）	3000			重复定位精度（mm）	±0.02
+安装方式			转折连接，前Y铰链，后双耳环	 	 
+ 
+3、相关文档
+（1）电机资料
+MHMF022L1V2M.pdf
+minas-a6_motor_spec_dsc_c.pdf
+松下A6系列目录书.pdf
+ 
+（2）驱动器资料
+minas-a6_manu_c.pdf
+SX-DSV03193_R2_0CN_180326参考规格书.pdf
+SX-DSV03243_R3_0C基本功能规格篇.pdf
+SX-DSV03244_R3_0CEtherCAT通信篇.pdf
