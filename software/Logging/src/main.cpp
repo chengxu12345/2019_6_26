@@ -1,10 +1,9 @@
-﻿#include <iostream>
+#include <iostream>
 #include <aris.hpp>
 #include "kaanh.h"
 #include<atomic>
 #include<string>
 #include<filesystem>
-
 
 using namespace aris::dynamic;
 auto xmlpath = std::filesystem::absolute(".");

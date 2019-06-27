@@ -1,4 +1,4 @@
-﻿#include <algorithm>
+#include <algorithm>
 #include"kaanh.h"
 #include<array>
 #include<math.h>
@@ -144,15 +144,15 @@ namespace kaanh
 	{
 		// 访问主站 
 		auto controller = target.controller;
-		// 打印 
-		auto &cout = controller->mout();
+		// 记录 
+		auto &cout = controller->lout();
 		for (int i = 0; i < 6; i++)
 		{
-			//打印第i+1个电机的电流
+			//记录第i+1个电机的电流
 			cout << "cur:" << controller->motionAtAbs(i).actualCur() << std::endl;
-			//打印第i+1个电机的位置
+			//记录第i+1个电机的位置
 			cout << "pos:" << controller->motionAtAbs(i).actualPos() << std::endl;
-			//打印第i+1个电机的速度
+			//记录第i+1个电机的速度
 			cout << "vel:" << controller->motionAtAbs(i).actualVel() << std::endl;
 		}
 		return 0;
